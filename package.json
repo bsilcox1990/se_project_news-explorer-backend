@@ -1,0 +1,34 @@
+{
+  "name": "se_project_news-explorer-backend",
+  "version": "1.0.0",
+  "description": "This backend project is focused on creating a server for the news-explorer application",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "lint": "npx eslint .",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bsilcox1990/se_project_news-explorer-backend.git"
+  },
+  "author": "Bradley Silcox",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bsilcox1990/se_project_news-explorer-backend/issues"
+  },
+  "homepage": "https://github.com/bsilcox1990/se_project_news-explorer-backend#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongoose": "^8.16.3",
+    "validator": "^13.15.15"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.10.0",
+    "eslint-plugin-import": "^2.32.0",
+    "nodemon": "^3.1.10",
+    "prettier": "^2.8.8"
+  }
+}
